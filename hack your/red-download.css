@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: #2B323C;
+}
+
+.ml-text {
+    height: 1.1cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #273A53;
+}
+
+.abcd {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-download {
+    padding: 20px 60px;
+    border-radius: 47px;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: white;
+    background: linear-gradient(#ff7979 1%, #DB0000 99%);
+    border: 8px solid #e90000;
+    /* box-shadow: 2px 2px 3px red, -2px -2px 3px red; */
+    text-shadow: 1px 1px 1px black;
+    cursor: pointer;
+}
